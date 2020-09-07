@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "esprima",
   "extends": "eslint:recommended",
   "env": {
     "commonjs": true,
@@ -8,6 +8,7 @@
     "browser": false
   },
   "parserOptions": {
+    "ecmaVersion": 6,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": false
